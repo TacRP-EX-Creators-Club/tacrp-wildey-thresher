@@ -5,18 +5,18 @@ SWEP.AdminOnly = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Wildey \"Thresher\""
+SWEP.PrintName = "Thresher Dragoon"
 SWEP.AbbrevName = "Thresher"
 SWEP.Category = "Tactical RP (Bonus)"
 
 SWEP.SubCatTier = "0Exotic"
 SWEP.SubCatType = "2Magnum Pistol"
 
-SWEP.Description = "A Wildey pistol chambered for the custom-made .600 Dragoon round and emblazoned with a prideful message."
+SWEP.Description = "A custom Wildey chambered for the bespoke .600 Dragoon round. Wield the power of a big game hunting rifle in a pistol-sized package!"
 SWEP.Description_Quote = "\"Where wisdom and valor fail, all that remains is faith. And it can overcome all.\"" -- Toa Tahu, Bionicle, Mata Nui Online Game
 
-SWEP.Trivia_Caliber = ".600 Dragoon"
-SWEP.Trivia_Manufacturer = "Karzahni Ironworks"
+SWEP.Trivia_Caliber = ".600 Dragoon" -- Effectively a shortened and rimless .600 Nitro Express. does it make sense? no. is it awesome? i think so.
+SWEP.Trivia_Manufacturer = "Red Reef Research"
 SWEP.Trivia_Year = "2001"
 
 SWEP.Faction = TacRP.FACTION_NEUTRAL
@@ -101,8 +101,8 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 225
-SWEP.RPMMultSemi = 1
+SWEP.RPM = 200
+SWEP.RPMMultSemi = 0.9
 
 SWEP.Spread = 0.001
 
@@ -131,8 +131,8 @@ SWEP.SightedSpeedMult = 0.8
 
 SWEP.ReloadSpeedMult = 0.75
 
-SWEP.AimDownSightsTime = 0.3
-SWEP.SprintToFireTime = 0.5
+SWEP.AimDownSightsTime = 0.35
+SWEP.SprintToFireTime = 0.4
 
 SWEP.Sway = 1.1
 SWEP.ScopedSway = 0.6
@@ -171,7 +171,7 @@ SWEP.HolsterAng = Angle(90, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 10
+SWEP.ClipSize = 8
 SWEP.Ammo = "357"
 
 SWEP.ReloadUpInTime = 1
@@ -189,7 +189,7 @@ local path = "weapons/tacint_shark/wildey/deagle_"
 SWEP.Sound_Shoot = "^weapons/tacint_shark/wildey/thresher_fire.wav"
 SWEP.Sound_Shoot_Silenced = "TacRP/weapons/vertec/vertec_fire_silenced-1.wav"
 
-SWEP.Vol_Shoot = 110
+SWEP.Vol_Shoot = 150
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
 
 // effects
