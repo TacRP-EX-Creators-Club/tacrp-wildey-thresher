@@ -187,7 +187,7 @@ SWEP.Ammo = "357"
 SWEP.ReloadUpInTime = 1
 SWEP.DropMagazineTime = 0.25
 
-SWEP.ReloadTimeMult = 1.3
+SWEP.ReloadTimeMult = 1.2
 
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/gsr1911.mdl"
 SWEP.DropMagazineImpact = "pistol"
