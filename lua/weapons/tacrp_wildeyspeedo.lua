@@ -12,7 +12,7 @@ SWEP.Category = "Tactical RP (Bonus)"
 SWEP.SubCatTier = "0Exotic"
 SWEP.SubCatType = "2Magnum Pistol"
 
-SWEP.Description = "A custom Wildey rechambered for .454 Casull, using extended magazines and sporting a massive laser sight. Produces an ear-shattering muzzle report."
+SWEP.Description = "A custom Wildey firing overpressured .454 Casull from extended magazines and sporting a massive laser sight. Produces an ear-shattering muzzle report."
 SWEP.Description_Quote = "\"Where wisdom and valor fail, all that remains is faith. And it can overcome all.\"" -- Toa Tahu, Bionicle, Mata Nui Online Game
 
 SWEP.Trivia_Caliber = ".454 Casull"
@@ -189,7 +189,7 @@ SWEP.DropMagazineTime = 0.25
 
 SWEP.ReloadTimeMult = 1.2
 
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/gsr1911.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/thresher.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
 // sounds
@@ -260,12 +260,6 @@ SWEP.LastShot = true
 
 SWEP.Attachments = {
     [1] = {
-        PrintName = "Laser",
-        Category = {"optic_thresher"},
-        AttachSound = "TacRP/weapons/flashlight_on.wav",
-        DetachSound = "TacRP/weapons/flashlight_off.wav",
-    },
-    [2] = {
         PrintName = "Tactical",
         Category = {"tactical_ebullet"},
         Bone = "ValveBiped.vertec_rootbone",
@@ -279,31 +273,31 @@ SWEP.Attachments = {
         Pos_WM = Vector(0.1, 5, -2.75),
         Ang_WM = Angle(0, -90, 180),
     },
-    [3] = {
+    [2] = {
         PrintName = "Accessory",
         Category = {"acc", "acc_extmag_pistol", "acc_holster", "acc_brace"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [4] = {
+    [3] = {
         PrintName = "Bolt",
         Category = {"bolt_automatic"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [5] = {
+    [4] = {
         PrintName = "Trigger",
         Category = {"trigger_semi"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [6] = {
+    [5] = {
         PrintName = "Ammo",
         Category = {"ammo_pistol"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [7] = {
+    [6] = {
         PrintName = "Perk",
         Category = {"perk", "perk_melee", "perk_shooting", "perk_reload"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
